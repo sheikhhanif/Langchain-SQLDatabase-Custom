@@ -55,8 +55,8 @@ class SQLDatabase:
         sample_rows_in_table_info: int = 3,
         indexes_in_table_info: bool = False,
         custom_table_info: Optional[dict] = None,
-        view_support: bool = False,
-        materialized_view_support: bool = False,
+        view_support: bool = True,
+        materialized_view_support: bool = True,
         max_string_length: int = 300,
         lazy_table_reflection: bool = False,
     ):
